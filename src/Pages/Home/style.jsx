@@ -21,6 +21,10 @@ export const Hom = styled.h1`
     color: #23232e;
     letter-spacing: .6rem;
     border-bottom: 1px solid red;
+
+    @media screen and (max-width: 768px) {
+            text-align: center;
+        }
 `
 export const MainHom = styled.div`
     display: flex;
@@ -106,6 +110,13 @@ export const GoSob = styled.div`
         @media screen and (max-width: 768px) {
             flex-direction: column;
         }
+        > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
 `
 export const Venha = styled.h3`
     font-family: "Quicksand", sans-serif;
